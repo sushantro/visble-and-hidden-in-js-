@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label>shs</label>
+    <br>
+    <select id="lop" onchange="sush()">
+        <option value="jkk">suhs</option>
+        <option value="jii">ji</option>
+        <option>hg</option>
+
+    </select>
+    <input type="text" id="joh">
+    <script>
+        function sush() {
+
+            const a = document.getElementById('lop').value;
+            console.log(a)
+            if (a == 'jkk') {
+                document.getElementById('joh').style.visibility = 'hidden'
+            }
+            else {
+                alert('sush')
+                document.getElementById('joh').style.visibility='visible'
+            }
+
+        }
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
